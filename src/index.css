@@ -625,8 +625,25 @@ input::-webkit-search-results-decoration { display: none; }
   .movies {
     margin-bottom: 45px;
   }
-  .menu {
-    display: none;
+  .logo {
+  margin-bottom: 15px;
+  }
+
+  .header-wrapper{
+    padding-bottom: 55px;
+  }
+
+  .header-wrapper{
+        flex-wrap: wrap;
+  }
+
+  .menu-item:not(:last-child) {
+    
+    margin-bottom: 15px;
+  }
+  .menu-list {
+    flex-direction: column;
+    align-items: start;
   }
   .movies-select {
     margin-right: 50px;
